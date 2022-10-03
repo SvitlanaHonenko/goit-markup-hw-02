@@ -7,6 +7,7 @@
   --mail-phone: rgba(255, 255, 255, 0.6);
   --color-background: #2f303a;
   --background: #f5f4fa;
+  --button: #188ce8;
 }
 .page {
   color: var(--color-primary);
@@ -82,7 +83,7 @@ ul {
   letter-spacing: 0.06em;
 }
 .btn {
-  background: var(--color-hover);
+  background: var(--button);
   color: var(--color-white);
   font-weight: 700;
   font-size: 16px;
@@ -92,7 +93,7 @@ ul {
   cursor: pointer;
 }
 .btn:hover {
-  background: var(--color-background);
+  background: var(--color-hover);
 }
 .btn:focus {
   background: var(--color-hover);
